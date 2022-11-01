@@ -25,7 +25,7 @@ if (url.indexOf(mumu) != -1) {
 if (url.indexOf(mumu2) != -1) {
     obj.lastPayTime = 1667304936000;
     obj.lastRenewEndTime = 4077286408000;
-    objpaid = 1;
+    obj.paid = 1;
 
 	body = JSON.stringify(obj);
 }
