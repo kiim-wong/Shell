@@ -9,10 +9,6 @@
 ^https:\/\/api\.wx\.gcihotel\.net\/api\/shop\ url script-response-body https://raw.githubusercontent.com/kiim-wong/Shell/master/service/meihao.js
 [mitm] 
 hostname = api.wx.gcihotel.net
-
-//hostname :api.wx.gcihotel.net
-//重写链接：^https:\/\/api\.wx\.gcihotel\.net\/api\/shop\/flashGoodsDetail\
-
 *******************************/
 
 var body = $response.body;
