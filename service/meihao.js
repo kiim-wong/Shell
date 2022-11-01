@@ -11,5 +11,5 @@
 hostname = api.wx.gcihotel.net
 */
 
-body = $response.body.replace("20:00:00", "10:00:00")
+body = $response.body.replace("\"dayStartTime\": \"2022-11-01 20:00:00\"", "\"dayStartTime\": \"2022-11-01 10:00:00\"")
 $done({body});
