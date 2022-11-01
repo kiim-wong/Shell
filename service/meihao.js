@@ -19,8 +19,8 @@ const mumu = '/flashGoodsDetail';
 
 
 if (url.indexOf(mumu) != -1) {
-    obj.data.retVal.flashGoods.dayStartTime = "2022-11-01 10:00:00";
-    obj.data.retVal.flashGoods.startTime = "2022-11-01 10:00:00";
+    obj.retVal.flashGoods.dayStartTime = "2022-11-01 10:00:00";
+    obj.retVal.flashGoods.startTime = "2022-11-01 10:00:00";
 
 	body = JSON.stringify(obj);
 }
