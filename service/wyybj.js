@@ -17,7 +17,9 @@ const mumu2 = 'getPaidStatus';
 
 if (url.indexOf(mumu) != -1) {
     obj.end = 4077286408000;
-    obj.userType =2;
+    obj.userType = 2;
+    obj.service = 1;
+    obj.start = 1667304942595;
 
 	body = JSON.stringify(obj);
 }
