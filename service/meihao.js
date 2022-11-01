@@ -5,7 +5,7 @@
 >木木团队,欢迎关注公众号:十三座州府
 
 [rewrite_local]
-^https:\/\/api\.wx\.gcihotel\.net\/api\/shop\/flashGoodsDetail\.json url script-response-body https://raw.githubusercontent.com/kiim-wong/Shell/master/service/meihao.js
+^https:\/\/api\.wx\.gcihotel\.net\/api\/shop\/flashGoodsDetail url script-response-body https://raw.githubusercontent.com/kiim-wong/Shell/master/service/meihao.js
 
 [mitm] 
 hostname = api.wx.gcihotel.net
